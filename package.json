@@ -1,6 +1,6 @@
 {
   "name": "ssf_ff",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "frontFunction私人用前端常用函数",
   "main": "min/ff.min.js",
   "scripts": {

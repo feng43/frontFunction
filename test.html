@@ -5,11 +5,24 @@
 	<title>Document</title>
 </head>
 <body>
+	<div style="height: 200vh;position: relative;">
+		<button class="testClick" style="position:absolute;bottom:0px;">电电电</button>
+	</div>
 	<!-- 测试用html 以后会用karma等单元测试替代 先凑活着用 -->
-	<script src="./min/ff.min.js"></script>
+	<script src="./min/ssf_ff.min.js"></script>
 	<script>
-		var randomColor = ff.randomColor();
-		console.log(ff.randomColor());
+		console.log(ssf_ff.randomColor());
+		console.log(ssf_ff.getBeforeDate(5));
+		console.log(ssf_ff.isEmail("www.ss@163.com"));
+		console.log(ssf_ff.isMobile("18611652153"));
+		console.log(ssf_ff.isPwdComplex("aaaAAA123"));
+		console.log(ssf_ff.isIdCard("110105199304030457",18));
+		console.log(ssf_ff.formatPassTime("2017-12-13"));
+		console.log(ssf_ff.formatRemainTime("2017-12-31"));
+		console.log(ssf_ff.timeTransfer(new Date()));
+		document.querySelector(".testClick").onclick = function(){
+			ssf_ff.scroll();
+		}
 	</script>
 </body>
 </html>
