@@ -1,12 +1,19 @@
 {
-  "name": "ff",
+  "name": "ssf_ff",
   "version": "1.0.0",
-  "description": "frontFunction",
-  "main": "min/index.min.js",
+  "description": "frontFunction私人用前端常用函数",
+  "main": "min/ff.min.js",
   "scripts": {
     "start": "webpack",
     "build": "node build/build.js"
   },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/feng43/frontFunction.git"
+  },
+  "keywords": [
+    "tool"
+  ],
   "author": "sunshifeng <sunshifeng0@163.com>",
   "license": "ISC",
   "dependencies": {
