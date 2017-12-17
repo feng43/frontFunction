@@ -7,6 +7,7 @@ const formatPassTime = require('./date/formatPassTime')
 const formatRemainTime = require('./date/formatRemainTime')
 const timeTransfer = require('./date/timeTransfer')
 const dayTransfer = require('./date/dayTransfer')
+const formatDate = require('./date/formatDate')
 const isEmail = require('./regexp/isEmail')
 const isMobile = require('./regexp/isMobile')
 const isPwdComplex = require('./regexp/isPwdComplex')
@@ -23,6 +24,7 @@ module.exports = {
 	formatRemainTime : formatRemainTime,
 	timeTransfer : timeTransfer,
 	dayTransfer : dayTransfer,
+	formatDate : formatDate,
 	isEmail : isEmail,
 	isMobile : isMobile,
 	isPwdComplex : isPwdComplex,

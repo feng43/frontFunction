@@ -2,7 +2,7 @@
   "name": "ssf_ff",
   "version": "1.0.1",
   "description": "frontFunction私人用前端常用函数",
-  "main": "min/ff.min.js",
+  "main": "min/ssf_ff.min.js",
   "scripts": {
     "start": "webpack",
     "build": "node build/build.js"
