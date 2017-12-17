@@ -1,7 +1,8 @@
 /**
  * @desc   判断身份证，可传入身份证位数，只限15与18
  * @param  {String}  str
- * @param  {Number}  n   default: 18
+ * @param  {Number}  n
+ * @default 18
  * @return {Boolean}
  */
 function isIdCard(str, n) {

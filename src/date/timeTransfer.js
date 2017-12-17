@@ -1,6 +1,6 @@
 /**
  *
- * @desc 格式化日期到年月日
+ * 格式化日期到年月日
  * @param  {String} time
  * @return {String}
  */
