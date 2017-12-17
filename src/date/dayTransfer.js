@@ -1,7 +1,7 @@
 /**
  *
- * @desc 格式化日期到年月日时分秒
- * @param  {String} time
+ * @desc   格式化日期到年月日时分秒
+ * @param  {String} obj
  * @return {String}
  */
 function dayTransfer(obj){
@@ -14,7 +14,7 @@ function dayTransfer(obj){
 		var min = datetime.getMinutes();
 		var sec = datetime.getSeconds();
 
-		//个位数补0
+		// s个位数补0
 		if(month < 10){
 			month = "0" + month;
 		};

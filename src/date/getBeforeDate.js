@@ -1,8 +1,8 @@
 /**
  *
- * @desc 获取几天前日期,n为数字,返回距离今天n天前的日期
- * @param  {Number}  n
- * @return {String}
+ * @desc 	获取几天前日期,n为数字,返回距离今天n天前的日期
+ * @param   {Number}  n
+ * @return  {String}
  */
 function getBeforeDate(n) {
 	var n = n;
